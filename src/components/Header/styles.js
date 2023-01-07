@@ -1,4 +1,5 @@
-import { alpha, makeStyles } from "@mui/material/styles";
+import { makeStyles } from "@mui/styles";
+import { alpha } from "@mui/material/styles";
 
 export default makeStyles((theme) => ({
   title: {
@@ -21,7 +22,7 @@ export default makeStyles((theme) => ({
     },
   },
   searchIcon: {
-    padding: theme.spacing(0, 2),
+    padding: theme.spacing(0, 0),
     height: "100%",
     position: "absolute",
     pointerEvents: "none",
@@ -31,6 +32,8 @@ export default makeStyles((theme) => ({
   },
   inputRoot: {
     color: "inherit",
+    padding: theme.spacing(0, 3),
+
   },
   inputInput: {
     padding: theme.spacing(1, 1, 1, 0),
